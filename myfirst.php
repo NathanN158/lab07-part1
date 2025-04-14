@@ -11,7 +11,7 @@
     <h1>PHP Variables, arrays and operators </h1>
 
 <?php 
-    $days = array(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday);
+    $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
     echo "<p> The days of the week in English are: $days. </p>";
 ?>
