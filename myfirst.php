@@ -13,7 +13,7 @@
 <?php 
     $days = array(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
 
-    echo "<p> The days of the week in English are: $days. </p>"
+    echo "<p> The days of the week in English are: $days. </p>";
 ?>
 <?php
     $marks = array (85, 85, 95);
