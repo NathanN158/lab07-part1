@@ -17,7 +17,7 @@
         $status = "PASSED";
     else
         $status = "FAILED";
-    echo "The average score is $ave. You $status.";
+    echo "<p>The average score is $ave. You $status.</p>";
 ?>
 </body>
 </html>
