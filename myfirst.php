@@ -13,7 +13,7 @@
 <?php 
     $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
     echo "<p> The days of the week in English are: $days[0], $days[1], $days[2], $days[3], $days[4], $days[5], $days[6] </p>";
-    $days[0,1,2,3,4,5,6,7]= Dimanche, Lundi, Mardi, Mecredi, Jeudi, Vendredi, Samedi
+    $days[0]= Dimanche, Lundi, Mardi, Mecredi, Jeudi, Vendredi, Samedi;
     echo "<p> The days of the week in French are: $days[0], $days[1], $days[2], $days[3], $days[4], $days[5], $days[6] </p>";
 ?>
 </body>
