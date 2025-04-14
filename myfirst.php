@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <title> Using POHP Vaiables, arrays and operators</title>
-        <meta name="description" content="Introduction to PHP elements">
-        <meta name="keywords" content="HTML, PHP, Array, Variables, operators">
-        <meta name="author" content="Nathan Nguyen">
+<head>
+    <meta charset="utf-8"/>
+    <title>Using PHP Variables, Arrays and Operators</title>
+    <meta name="description" content="Introduction to PHP elements">
+    <meta name="keywords" content="HTML, PHP, Array, Variables, operators">
+    <meta name="author" content="Nathan Nguyen">
 </head>
 <body>
-    <h1>PHP Variables, arrays and operators </h1>
+    <h1>PHP Variables, Arrays and Operators</h1>
 
-<?php 
-    $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-    echo "<p> The days of the week in English are: $days[0], $days[1], $days[2], $days[3], $days[4], $days[5], $days[6] </p>";
-    $days[0]= "Dimanche";
-    echo "<p> The days of the week in French are: $days[0], $days[1], $days[2], $days[3], $days[4], $days[5], $days[6] </p>";
-?>
+    <?php 
+        $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+
+        echo "<p>The days of the week in English are:<br>";
+        echo implode(", ", $days);
+        echo "</p>";
+
+        $days[0] = "Dimanche";
+
+        echo "<p>The days of the week in French (just the first day changed) are:<br>";
+        echo implode(", ", $days);
+        echo "</p>";
+    ?>
 </body>
 </html>
